@@ -1,0 +1,175 @@
+@charset "UTF-8";
+/* 
+ * CSS Document 
+ */
+/*!
+ * Enoch Daniel Adams v1.0.0 (http://e-noch.github.io/digital-me/)
+ * Copyright 2011-2018 True Vine Style
+ * Copyright 2011-2018 Twitter, Inc.
+ * Licensed under MIT (https://github.com/twbs/bootstrap/blob/master/LICENSE)
+ */
+/*
+ * Base structure
+ */
+.bungie {
+	background-color: #091112;
+	width: 100%;
+	height: 100%;
+    position: fixed;
+    z-index: 1;
+}
+.mx-right {
+	margin-right: auto !important;
+}
+.row p {
+	color: #333;
+}
+.cover-box {
+	box-shadow: inset 0 0 5rem rgba(0, 0, 0, .2);
+	width: 100%;
+	height: 100%;
+    position: fixed;
+    z-index: 1;	
+}
+.cover-background {
+	background: url('../images/red_dot-l-png-background.png') repeat;
+	background-size: 8em;
+	height: 40%;
+	width: 100%;
+	position: fixed;
+	bottom: 1em;
+	z-index: 2;
+}
+.cover-heading {
+	margin-top: 3em; 
+	width: 12em; 
+	color: #333;
+}
+.controls {
+	width: 100%;
+	padding: 20px;
+	position: fixed;
+	bottom: 1em;
+	z-index: 300;
+}
+.controls a:hover {
+	color: crimson;
+}
+.inactive {
+	pointer-events: none;
+}
+.click-active {
+	pointer-events: all;
+}
+/*
+ * Item Selection
+ */
+.hselc {
+	max-width: 1440px;
+}
+.itselc {
+	position: relative;
+    z-index: 5;
+}
+.col-md-2{
+	max-width: 88px;
+}
+/*
+ * Portfolio
+ */
+.tvs {
+	color: crimson;
+	font-size: 1em;
+}
+.taper {
+	max-width: 50%;
+}
+@media (max-width: 780px) {
+	.taper {
+		-webkit-box-flex: 0;
+		-ms-flex: 0 0 83.333333%;
+		flex: 0 0 83.333333%;
+		max-width: 83.333333%;
+	}
+}
+.title-1 {
+	margin-top: 3em; 
+	color: #333;
+}
+	.bungie-a h5{
+		color: aliceblue;
+	}
+.title-1 a:hover {
+	color: crimson;
+}
+.port-1 {
+	height: 80%;
+}
+.port-1 img {
+	width: 100%;
+}
+.info-1 {
+	color: #333;
+	margin: 40px 0 0 0;
+	position: relative;
+	bottom: 4em;
+}
+@media (max-width: 780px) {
+	.info-1 {
+		bottom: 1em;
+	}
+}
+.textb {
+	width: 50px;
+	margin: 20px 0 0 0;
+}
+.primary-tea {
+	background-color: #bcc132;
+	height: 30px;
+	width: 30px;
+	border-radius: 50px;
+	margin-bottom: 20px;
+}
+.primary-tea-2 {
+	background-color: #741917;
+	height: 30px;
+	width: 30px;
+	border-radius: 50px;
+	margin-bottom: 20px;
+}
+.secondary-tea {
+	background-color: #707431;
+	height: 30px;
+	width: 30px;
+	border-radius: 50px;
+	margin-bottom: 20px;
+}
+.secondary-tea-2 {
+	background-color: #8e1c1c;
+	height: 30px;
+	width: 30px;
+	border-radius: 50px;
+	margin-bottom: 20px;
+}
+.port-4 {
+	width: 200px;
+	height: auto;
+}
+.port-4 img {
+	width: 100%;
+}
+.otl {
+	border: solid 1px;
+	border-color: darkgray;
+}
+.code {
+	max-width: 570px;
+	color: darkgray;
+	text-align: justify;
+}
+@media (max-width: 1020px) {
+	.code {
+		height: 310px;
+		overflow: hidden;			
+	}
+}
