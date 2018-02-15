@@ -13,12 +13,12 @@
 		<link href="css/navbar-top-fixed.css" rel="stylesheet">
 		<link href="css/cover.css" rel="stylesheet">
 		<link href="css/grid.css" rel="stylesheet">
-		<!-- Custom styles for this template -->
+		<link href="css/lightbox.css" rel="stylesheet" type="text/css">
+		<!-- Authors styles for this template -->
 		<link href="css/style.css" rel="stylesheet">   
 		<link href="css/svg.css" rel="stylesheet">   
 	</head>
 	<body>
-	<header>
 	<header>
 		<nav class="navbar navbar-light bg-light fixed-top">
 			<a class="navbar-brand" href="index.html"><h2>ENOCH</h2></a>
@@ -62,7 +62,13 @@
 		<main role="main" class="inner cover">
 			<div class="row">
 				<div class="col-sm-3"><div class="title-1"><h5>001<br>// Logo</h5></div></div>
-				<div class="col-md-10 taper"><div class="port-1"><img src="images/reactive-inc-ion.png" alt="ReActive Inc. Ion"></div></div>
+				<div class="col-md-10 taper">
+					<div class="port-1">
+						<div class="thumbnails">        
+							<a href="images/reactive-inc-ion.png" data-lightbox="boxes" title="ReActive Inc. Ion"><img src="images/reactive-inc-ion.png" alt="ReActive Inc. Ion png"></a>         
+						</div><!-- end thumbnails -->
+					</div>
+				</div>
 			</div>			
 		</main>		
 		<footer class="mastfoot mt-auto">	
@@ -85,9 +91,41 @@ Theatre Tea is for contemporary performing arts, historical movies and tea drink
 		</footer>
 		<main role="main" class="inner cover">
 			<div class="row">
-				<div class="col-xl-2"><div class="title-1"><h5>003<br><a href="https://www.twitch.tv/reactive_inc">//* LIVE *// twitch.tv/reactive_inc</a></h5></div></div>
-				<div class="col-md-6 taper"><div class="port-1"><img src="images/MacBook-Air-reactive-twitch-MockUp.png" alt="MacBook Air ReActive Twitch MockUp png"></div></div>
-				<div class="col-md-4"><div class="col-xl-8"><div class="port-1"><img src="images/twitch-profile-panel-social.jpg" alt="Twitch Profile Panel Social jpg"></div></div><div class="col-xl-8"><div class="port-1"><img src="images/artboard-26-purpile-work-in-progress.png" alt="Artboard 26 Purpile Work in Progress png"></div></div><div class="col-xl-8"><div class="port-1"><img src="images/artboard-79-red-reactive.png" alt="Artboard 79 Red Reactive png"></div></div></div>
+				<div class="col-xl-2">
+					<div class="title-1">
+						<h5>003<br><a href="https://www.twitch.tv/reactive_inc">//* LIVE *// twitch.tv/reactive_inc</a></h5>
+					</div>
+				</div>
+				<div class="col-md-6 taper">
+					<div class="port-1">
+						<div class="thumbnails">        
+							<a href="images/MacBook-Air-reactive-twitch-MockUp.png" data-lightbox="boxes" title="MacBook Air ReActive Twitch MockUp"><img src="images/MacBook-Air-reactive-twitch-MockUp.png" alt="MacBook Air ReActive Twitch MockUp png"></a>         
+						</div><!-- end thumbnails -->
+					</div>
+				</div>
+				<div class="col-md-4">
+					<div class="col-xl-8">
+						<div class="port-1">
+							<div class="thumbnails">        
+								<a href="images/twitch-profile-panel-social.jpg" data-lightbox="boxes" title="Twitch Profile Panel Social"><img src="images/twitch-profile-panel-social.jpg" alt="Twitch Profile Panel Social jpg"></a> 
+							</div><!-- end thumbnails -->
+						</div>
+					</div>
+					<div class="col-xl-8">
+						<div class="port-1">
+							<div class="thumbnails">        
+								<a href="images/artboard-26-purpile-work-in-progress.png" data-lightbox="boxes" title="Artboard 26 Purpile Work in Progress"><img src="images/artboard-26-purpile-work-in-progress.png" alt="Artboard 26 Purpile Work in Progress png"></a>         
+							</div><!-- end thumbnails -->
+						</div>
+					</div>
+					<div class="col-xl-8">
+						<div class="port-1">
+							<div class="thumbnails">        
+								<a href="images/artboard-79-red-reactive.png" data-lightbox="boxes" title="Artboard 79 Red Reactive"><img src="images/artboard-79-red-reactive.png" alt="Artboard 79 Red Reactive png"></a> 
+							</div><!-- end thumbnails -->
+						</div>
+					</div>
+				</div>
 			</div>			
 		</main>		
 		<footer class="mastfoot mt-auto">	
@@ -105,11 +143,16 @@ Theatre Tea is for contemporary performing arts, historical movies and tea drink
 	<div class="cover-background"></div>
     <!-- Bootstrap core JavaScript
     ================================================== -->
-    <!-- Placed at the end of the document so the pages load faster -->
     <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
     <script>window.jQuery || document.write('<script src="js/jquery-slim.min.js"><\/script>')</script>
     <script src="js/popper.min.js"></script>
     <script src="js/bootstrap.min.js"></script>
     <script src="js/holder.min.js"></script>
+	<!-- LightBox core JavaScript
+    ================================================== -->
+	<script src="https://cdn.jsdelivr.net/npm/jquery-validation@1.17.0/dist/jquery.validate.min.js" type="text/javascript"></script>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js" type="text/javascript"></script>
+	<script src="js/lightbox.js" type="text/javascript" ></script>
+	<script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
   </body>
 </html>
