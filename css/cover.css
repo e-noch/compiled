@@ -41,12 +41,6 @@ body {
   color: #fff;
   text-shadow: 0 .05rem .1rem rgba(0, 0, 0, .2);
 }
-
-.cover-container {
-  	max-width: 86em;
-}
-
-
 /*
  * Header
  */
