@@ -59,6 +59,7 @@ h1 {
 	font-weight: 700;
 	font-family: 'Open Sans';
 	transform: translate(-50%, 0);
+	padding: 3px;
 }
 
 .card .wrapper {
@@ -71,6 +72,8 @@ h1 {
 
 .card .wrapper:hover .data {
 	transform: translateY(0);
+	background-color: rgba(40,40,40,0.88);
+	transition: transform 0.3s;
 }
 
 .card .data {
@@ -98,6 +101,7 @@ h1 {
 .card .text {
 	height: 70px;
 	margin: 0;
+	color: #fff;
 }
 
 .card input[type='checkbox'] {
@@ -120,6 +124,9 @@ h1 {
 .example-2 .wrapper:hover .menu-content span {
 	transform: translate(-50%, -10px);
 	opacity: 1;
+	background-color: rgba(40,40,40,0.88);
+	padding: 3px;
+	transition: transform 0.3s;
 }
 
 .example-2 .header {
@@ -146,7 +153,7 @@ h1 {
 }
 
 .example-2 .menu-content li {
-	margin: 0 5px;
+	margin: 0 11px;
 	position: relative;
 }
 
@@ -156,7 +163,7 @@ h1 {
 }
 
 .example-2 .data {
-	color: #fff;
+	background-color: rgba(40,40,40,0);
 	transform: translateY(calc(70px + 4em));
 }
 
@@ -189,4 +196,5 @@ h1 {
 .example-2 .button:hover::after {
 	transform: translate(5px, -50%);
 	opacity: 1;
+	transition: transform 0.3s;
 }
