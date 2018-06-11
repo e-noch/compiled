@@ -12,6 +12,13 @@ h1 {
 	font-family: "Open Sans", sans-serif;
 	font-weight: 300;
 }
+@media screen and (min-width: 1245px){ 
+	.clickSwiss {
+		float: right;
+		left: 262px;
+		
+	}
+}
 .col-lg-2 {
 	margin-right: 100px !important;
 }
