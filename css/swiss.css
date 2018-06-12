@@ -19,12 +19,11 @@ h1 {
 		
 	}
 }
-.col-lg-2 {
-	margin-right: 100px !important;
-}
+
 .rowSwiss {
 	max-width: 900px;
 	margin: 50px auto 0;
+	
 }
 
 .card {
