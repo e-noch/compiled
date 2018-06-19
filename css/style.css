@@ -185,4 +185,9 @@
 		height: 310px;
 		overflow: hidden;			
 	}
+	.cardEnd {
+	width: 300px !important;
+	height: auto;
+	position: relative;
+	}
 }
