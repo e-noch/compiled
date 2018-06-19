@@ -1,0 +1,16 @@
+@charset "UTF-8";
+/* CSS Document */
+
+
+.imgFull {
+	position: relative;
+	top: 80px;
+	right: 400px;
+	z-index: 1;
+	
+}
+.imgFull img{
+	width: 300%;
+	height: auto;
+	max-width: 740px;
+}
