@@ -14,3 +14,6 @@
 	height: auto;
 	max-width: 740px;
 }
+.post-4 .wrapper {
+	background: url(https://e-noch.github.io/compiled/images/armin-hofmann-poster.jpg) center/cover no-repeat;
+}
