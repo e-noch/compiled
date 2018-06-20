@@ -20,7 +20,7 @@
 		<link href="css/swiss.css" rel="stylesheet">   
 		<link href="css/grade.css" rel="stylesheet">
 		<link href="css/onload.css" rel="stylesheet">
-		<script language="javascript" type="text/javascript" src="js/onload.js" ></script>
+		
 	</head>
 	<body>
 	<header>
@@ -49,7 +49,7 @@
 		</nav>
 	</header>
 	<!-- End page Header -->
-	<div id="page">
+
 	<!-- Begin page content -->
 		<div class="controls inactive">
 		<div class="row">
@@ -63,7 +63,8 @@
 		</div>
 		</div>
 	<div class="cover-box"></div>
-	<div class="cover-container d-flex h-100 p-3 mx-right flex-column">		
+	<div class="cover-container d-flex h-100 p-3 mx-right flex-column">
+		<div id="page">
 		<main role="main" class="inner cover">
 			<div class="row cardEnd">
 				<div class="col-sm-1"><div class="title-1"><h5>001<br>// Graphic Design</h5></div></div>
@@ -183,16 +184,15 @@
 					<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 611.99 773.05"><defs><style></style><linearGradient id="linear-gradient" x1="505.17" y1="50.16" x2="505.17" y2="279.52" gradientUnits="userSpaceOnUse"><stop offset="0.01" stop-color="#371c2b"/><stop offset="1" stop-color="#7f5a6e" stop-opacity="0"/></linearGradient></defs><title>ps</title><g class="cls-1-ps"><g id="applaction-ps"><path class="cls-2-ps" d="M611.9,708.63A64.6,64.6,0,0,1,547.49,773H64.41A64.6,64.6,0,0,1,0,708.63V64.53A64.6,64.6,0,0,1,64.41.12L398.34,0C433.79,49.31,564.94,155.75,612,188Z"/><path class="cls-3-ps" d="M612,188C575.37,162.88,441.79,50.16,398.34,0L455.4,159.89l156.5,156.5Z"/><path class="cls-4-ps" d="M456.68,161.61,398.34,0H64.42A64.61,64.61,0,0,0,0,64.42v644.2A64.61,64.61,0,0,0,64.42,773H547.57A64.61,64.61,0,0,0,612,708.62V188Z"/><polygon class="cls-5-ps" points="611.99 187.95 611.99 187.95 398.34 0 456.68 161.61 611.99 187.95"/><path class="cls-6-ps" d="M187.19,307h74.29q22.14,0,36.43,12.38t14.29,48.1q0,61.91-49.29,61.91a191.71,191.71,0,0,1-19.76-1.31q-12.14-1.31-20.72-2.5v57.62H187.19Zm70.24,90.72q9.52,0,14.41-7.14t4.88-22.86q0-29-18.57-29H222.43v59.05Z"/><path class="cls-6-ps" d="M352.32,483.1q-14.41-1.55-22-4.17V458.22H387q7.86,0,11.19-2.14t3.33-8.33v-4q0-5-3.21-7.5T387,433.69H367q-17.86,0-28.34-8.21t-10.48-26.55v-7.38q0-19,11.55-28.22t39.88-9.17a199.78,199.78,0,0,1,25.48,1.79q13.81,1.79,21,4.17v20.72H372.44q-7.38,0-10.72,2.38t-3.33,8.33v3.81q0,6,3.57,8t11.91,2h20.48q19,0,28.22,8.69t9.17,24.88v11.43q0,18.81-12.86,26.55t-39.05,7.74A258,258,0,0,1,352.32,483.1Z"/></g></g></svg>
 				</div>
 				<div class="col-md-4 info-1">
-					<p>
-					PERFECT GRADE <br>Client<br>Reactive Inc.<br> Approach<br>Both functional and expressive the Reactive Inc. posters act to capture the building excitement and pull viewers to the event.
+					<p>PERFECT GRADE <br>Client<br>Reactive Inc.<br> Approach<br>Both functional and expressive the Reactive Inc. posters act to capture the building excitement and pull viewers to the event.
 					</p>
 				</div>
 			</div>			
-		</footer>	
-	</div>
+		</footer>
+	</div><!-- end page for laod-->
+	</div><!-- end cover container -->
+	<div id="loading"></div>		
 	<div class="cover-background"></div>
-</div><!-- end page -->
-<div id="loading"></div>
     <!-- Bootstrap core JavaScript
     ================================================== -->
     <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
@@ -206,5 +206,6 @@
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js" type="text/javascript"></script>
 	<script src="js/lightbox.js" type="text/javascript" ></script>
 	<script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+	<script language="javascript" type="text/javascript" src="js/onload.js"></script>
   </body>
 </html>
