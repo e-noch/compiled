@@ -99,7 +99,7 @@
 }
 
 .tvs:hover a {
-	background-color: #000 !important;
+	background-color: rgba(225,225,225,0.0) !important;
 	padding: 3px;
 	border-bottom: 1px solid;
 }
