@@ -81,6 +81,7 @@
 .itselc {
 	position: relative;
     z-index: 5;
+	width: 623px;
 }
 .col-md-2{
 	max-width: 88px;
@@ -91,6 +92,16 @@
 .tvs {
 	color: crimson;
 	font-size: 1em;
+}
+.tvs a {
+	color: crimson;
+	background-color: crimson;
+}
+
+.tvs:hover a {
+	background-color: #000 !important;
+	padding: 3px;
+	border-bottom: 1px solid;
 }
 .taper {
 	max-width: 50%;
@@ -127,9 +138,14 @@
 	position: relative;
 	bottom: 4em;
 }
-@media (max-width: 780px) {
+@media (max-width: 760px) {
 	.info-1 {
 		bottom: 1em;
+	}
+		.itselc {
+	position: relative;
+    z-index: 5;
+	width: auto !important;
 	}
 }
 .textb {
@@ -177,7 +193,7 @@
 }
 .code {
 	max-width: 570px;
-	color: darkgray;
+	color: lightgray;
 	text-align: justify;
 }
 @media (max-width: 1020px) {
@@ -190,4 +206,5 @@
 	height: auto;
 	position: relative;
 	}
+
 }
