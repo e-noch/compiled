@@ -1,0 +1,11 @@
+@charset "UTF-8";
+/* CSS Document */
+
+
+.rodeo-background {
+	background: url('../images/map.png') no-repeat;
+	width: 100%;
+	height: auto;
+	position: fixed;
+	z-index: 3;
+}
