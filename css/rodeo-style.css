@@ -6,6 +6,6 @@
 	background: url('../images/map.png') no-repeat;
 	width: 100%;
 	height: auto;
-	position: fixed;
-	z-index: 3;
+	position: relative;
+	z-index: 2;
 }
