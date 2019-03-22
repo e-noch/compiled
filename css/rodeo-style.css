@@ -6,14 +6,18 @@
 	z-index: 0;
 	width: 100%;
 	height: 80%;
+	background: url('../images/map.PNG') no-repeat;
 }
 
 .rodeo-background {
-	background: url('../images/map.PNG') no-repeat;
-	width: 100%;
-	height: auto;
-	position: relative;
-	z-index: 2;
-	top: 0;
 	
+}
+
+.port-8 {
+	width: 200px;
+	height: auto;
+}
+.port-8 img {
+	width: 100%;
+	border-radius: 20px;
 }
