@@ -9,7 +9,7 @@
 }
 
 .rodeo-background {
-	background: url('/images/map.png') no-repeat;
+	background: url('../images/map.PNG') no-repeat;
 	width: 100%;
 	height: auto;
 	position: relative;
