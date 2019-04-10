@@ -7,6 +7,7 @@
 	width: 100%;
 	height: 80%;
 	background: url('../images/map.PNG') no-repeat;
+	opacity: 0.5;
 }
 
 .rodeo-background {
@@ -14,10 +15,15 @@
 }
 
 .port-8 {
-	width: 200px;
-	height: auto;
+
 }
 .port-8 img {
 	width: 100%;
 	border-radius: 20px;
+}
+
+.app-truck {
+	width: 100px;
+	height: auto;
+	padding: 20px 0 0 0;
 }
