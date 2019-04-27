@@ -7,7 +7,7 @@
 	width: 100%;
 	height: 80%;
 	background: url('../images/map.PNG') no-repeat;
-	opacity: 0.5;
+	opacity: 0.2;
 }
 
 .rodeo-background {
@@ -31,7 +31,74 @@
 .app-gif {
 	
 }
-.app-gif img {
-	width: 200px;
+.app-gif {
+	width: 480px;
 	height: auto;
 }
+.app-gif img{
+	width: 100%;
+	height: auto;
+}
+
+.icon-truck {
+    width: 100px;
+    height: 100px;
+    padding: 20px;
+	background-color: #fff;
+	border: 3px solid rgb(255, 213, 79);
+	border-radius: 400px;
+	box-shadow: 0 0 1rem rgba(0, 0, 0, .0);
+	margin: 10px;
+}
+.icon-truck svg {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 80%;
+}
+svg.chicken {
+	margin-top: 8px;
+    margin-bottom: auto;
+    width: 6em;
+    height: auto;
+    display: block;
+    left: -40px;
+    position: relative;
+}
+svg.corndog {
+	margin-top: 18px;
+    margin-bottom: auto;
+    width: 7em;
+    height: auto;
+    display: block;
+    left: -46px;
+    position: relative;
+}
+svg.icecream {
+    margin-top: 4px;
+    margin-bottom: auto;
+    width: 5em;
+    height: auto;
+    display: block;
+    left: -29px;
+    position: relative;
+}
+svg.hotdog {
+    margin-top: 10px;
+    margin-bottom: auto;
+    width: 5em;
+    height: auto;
+    display: block;
+    left: -14px;
+    position: relative;
+}
+svg.tea {
+    margin-top: -2px;
+    margin-bottom: auto;
+    width: 3em;
+    height: auto;
+    display: block;
+    left: 3px;
+    position: relative;
+}
+
