@@ -42,14 +42,14 @@
 
 
 .icon-truck {
-    width: 100px;
-    height: 100px;
+    width: 103px;
+    height: 107px;
     padding: 20px;
-	background-color: #fff;
-	border: 3px solid rgb(255, 213, 79);
-	border-radius: 400px;
-	box-shadow: 0 0 1rem rgba(0, 0, 0, .0);
-	margin: 10px;
+    background-color: #fff;
+    border: 3px solid rgb(255, 213, 79);
+    border-radius: 60px 43px;
+    box-shadow: 0 0 1rem rgba(0, 0, 0, .0);
+    margin: 10px;
 }
 .icon-truck svg {
   display: block;

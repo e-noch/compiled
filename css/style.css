@@ -11,6 +11,13 @@
 /*
  * Base structure
  */
+@import url('https://fonts.googleapis.com/css?family=Exo');
+body {
+   font-family: 'Exo','Open Sans',serif;
+}
+.navbar {
+	opacity: .8 !important;
+}
 #hideAll
  {
    position: fixed;
