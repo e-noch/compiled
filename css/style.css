@@ -15,8 +15,16 @@
 body {
    font-family: 'Exo','Open Sans',serif;
 }
+/*
+ * Index
+ */
 .navbar {
-	opacity: .8 !important;
+
+}
+.logo {
+	width: 50px;
+	height: auto;
+	
 }
 #hideAll
  {
