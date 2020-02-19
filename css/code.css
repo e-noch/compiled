@@ -1,0 +1,37 @@
+@charset "UTF-8";
+/* CSS Document */
+
+.cardEnd {
+	width: 1980px !important;
+	height: auto;
+	position: absolute;
+}
+@media (max-width: 425px) {
+	.cardEnd {
+	width: 300px !important;
+	height: auto;
+	position: relative;
+	}
+	.mGrade {
+	top: 70px !important;
+}
+}
+
+.mGrade {
+	top: 670px;
+}
+.post-5 .wrapper {
+	background: url(https://e-noch.github.io/compiled/images/heavyarms-vs-poster.jpg) center/cover no-repeat;
+}
+.post-6 .wrapper {
+	background: url(https://e-noch.github.io/compiled/images/rx_78_2-poster.jpg) center/cover no-repeat;
+}
+.post-7 .wrapper {
+	background: url(https://e-noch.github.io/compiled/images/rx_78_2-variant-poster.jpg) center/cover no-repeat;
+}
+.post-8 .wrapper {
+	background: url(https://e-noch.github.io/compiled/images/gm-sniper-2-years-01.jpg) center/cover no-repeat;
+}
+.post-9 .wrapper {
+	background: url(https://e-noch.github.io/compiled/images/root-yearbook-super-team.jpg) center/cover no-repeat;
+}
