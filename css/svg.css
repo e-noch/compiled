@@ -69,3 +69,11 @@
 .cls-2-book{fill:#20201f;}
 .cls-3-book{fill:none;}
 .cls-4-book{fill:url(#linear-gradient-book);}
+.cls-1-code-sword{fill:none;}
+/* 
+ * CSS Save
+ * fill:url(#linear-gradient-code-sword);
+ */
+.cls-2-code-sword{fill:#20201f;}
+.cls-3-code-sword{fill:none;}
+.cls-4-code-sword{fill:#5c4673;}

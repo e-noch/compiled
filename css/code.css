@@ -35,3 +35,22 @@
 .post-9 .wrapper {
 	background: url(https://e-noch.github.io/compiled/images/root-yearbook-super-team.jpg) center/cover no-repeat;
 }
+
+.codesword-title-1 {
+    width: 1440px;
+}
+.text-codesword h1{
+    font-weight: 900;
+    font-size: 18em;
+}
+
+.booksword-box {
+    margin-top: 77px;
+    width: 1440px;
+}
+
+.text-codebook h1{
+    font-weight: 700;
+    font-size: 10em;
+    color: #010101;
+}
