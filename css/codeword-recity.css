@@ -1,0 +1,19 @@
+@charset "UTF-8";
+/* CSS Document */
+
+
+.imgFull {
+	position: relative;
+	top: 80px;
+	right: 400px;
+	z-index: 1;
+	
+}
+.imgFull img{
+	width: 300%;
+	height: auto;
+	max-width: 740px;
+}
+.codeword-recity-post-1 .wrapper {
+	background: url(https://e-noch.github.io/compiled/images/impact-report-web-10.1_compressed_Page_01.jpg) center/cover no-repeat;
+}
