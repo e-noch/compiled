@@ -66,6 +66,16 @@ body {
 	bottom: 1em;
 	z-index: 2;
 }
+.cover-background-black {
+	background: url('../images/red_dot-l-png-background.png') repeat;
+	background-size: 8em;
+	height: 40%;
+	width: 100%;
+	position: fixed;
+	bottom: 1em;
+	z-index: 2;
+    background-color: #000;
+}
 .cover-heading {
 	margin-top: 3em; 
 	width: 12em; 
@@ -152,6 +162,9 @@ body {
 	margin: 40px 0 0 0;
 	position: relative;
 	bottom: 4em;
+}
+.info-1 a:hover {
+    color: blueviolet;
 }
 @media (max-width: 760px) {
 	.info-1 {
